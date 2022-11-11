@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Banner principal inicio */
+#hero{
+    text-align: center;
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/pexels-jaroslav-nymburský-687811.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#hero h1{
+    font-size: 3em;
+    padding-top: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 5px white;
+}
+#hero .btn{
+    font-size: 25px;
+    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Banner principal fin */
+/* Quienes somos inicio */
+#somos{
+    height: 200px;
+    width: 100%;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+#somos p{
+    padding-top: 1rem;
+}
+/* Quienes somos fin */
+/* Footer inicio */
+footer{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+footer p{
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 0;
+}
+footer a{
+    color: white;
+    font-size: 2rem;
+}
+footer a:hover{
+    color: #dc3545;
+}
+/* Footer fin */
+/* Ubicacion inicio */
+#ubicacion{
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/pexels-roma-shvetsov-7775725.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#ubicacion .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 0 ;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 5px black;
+}
+#ubicacion p{
+    text-align: center;
+}
+#ubicacion iframe{
+    height: 20rem;
+    width: 20rem;
+}
+/* Ubicacion fin */
+#misjuegos{
+    padding-top: 20px;
+}
+/* Imagenes de los juegos renderizados inicio */
+#misjuegos .foto{
+    height: 250px;
+    object-fit: cover;
+}
+/* Imagenes de los juegos renderizados fin */
+#finalizar{
+    margin: 0 0 10px 0;
+}
+/* Contacto inicio */
+#contacto{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/pexels-jeshootscom-442576.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding-top: 70px;
+}
+#contacto .container{
+    display: flex;
+    justify-content: center;
+}
+#contacto .formulario {
+    width: 400px;
+    padding: 40px 30px;
+    border: 2px solid black;
+    box-shadow: 7px 13px 37px #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 70px;
+}
+#contacto h2{
+    font-weight: bold;
+}
+#contacto .form-control{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 100%;
+    padding: 7px;
+    background-color: rgb(241, 241, 238);
+    background-image: none;
+    box-shadow: none;
+}
+.invalid-feedback{
+    margin-bottom: 5px;
+    padding: 0;
+    color: azure;
+}
+/* Contacto fin */
+/* Estilos de SweetAlert2, los que tienen !important no pude cambiarlos desde el codigo */
+.swal2-input{
+    background-color: rgb(241, 241, 238) !important;
+    border: 2px solid black !important;
+    border-radius: 4px !important;
+    box-shadow: none !important;
+    color: #000 !important;
+}
+.swal2-validation-message{
+    margin: 10px 20px 0px 20px !important;
+}
+.swal2-popup .swal2-styled:focus {
+    box-shadow: none !important;
+}
+.swal2-styled.swal2-confirm.swalBtnColor {
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: white;
+}
